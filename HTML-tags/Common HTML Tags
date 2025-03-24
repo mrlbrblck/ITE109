@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags define character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- The <title> tag defines the title of the webpage, shown on the browser tab -->
+    <title>Common HTML Tags</title>
+</head>
+<body>
+    <!-- <h1> to <h6> tags define headings, with <h1> being the largest and <h6> the smallest -->
+    <h1>Head</h1>
+    <h2>Shoulder</h2>
+    <h3>Knees</h3>
+    <h4>Toes</h4>
+    <h5>Incoming random sonnet below:</h5>
+    <h6>When you realize HTML is just a series of boxes inside boxes inside more boxes...</h6>
+
+    <!-- Paragraph tag <p> is used to define a block of text -->
+    <p>Shall I compare thee to a summer’s day?</p>
+    <p>Thou art more lovely and more temperate:</p>
+    <p>Rough winds do shake the darling buds of May,</p>
+    <p>And summer’s lease hath all too short a date:</p>
+    <p> </p>    
+    <p>Sometime too hot the eye of heaven shines,</p>
+    <p>And often is his gold complexion dimm’d;</p>
+    <p>And every fair from fair sometime declines,</p>
+    <p>By chance or nature’s changing course untrimm’d;</p>
+    <p> </p>
+    <p>But thy eternal summer shall not fade</p>
+    <p>Nor lose possession of that fair thou owest;</p>
+    <p>Nor shall Death brag thou wanderest in his shade,</p>
+    <p>When in eternal lines to time thou growest:</p>
+    <p> </p>
+    <p>So long as men can breathe or eyes can see,</p>
+    <p>So long lives this and this gives life to thee.</p>
+
+    <!-- Anchor tag <a> is used to create hyperlinks -->
+    <a href="https://www.youtube.com/watch?v=hB7CDrVnNCs">Click Here!</a>
+
+    <!-- <ul> creates an unordered list, and <li> defines individual list items <li> -->
+    <ul>
+        <li>Burger</li>
+        <li>Fries</li>
+        <li>Chicken</li>
+        <li>Salad</li>
+    </ul>
+
+    <!--<ol> creates an ordered list, and <li> defines individual list items-->
+    <ol>
+        <li>Velociraptor</li>
+        <li>Triceratops</li>
+        <li>T-Rex</li>
+        <li>Stegosaurus</li>
+    </ol>
+
+    <!-- <table> is used to define a table, <tr> is table row, <td> is a data cell(table data), and <th>(table header) is a header cell-->
+        <table border="1">
+            <tr>
+                <th>Dinosaur</th>
+                <th>Random Fact</th>
+            </tr>
+            <tr>
+                <td>Velociraptor</td>
+                <td>They were actually the size of a turkey!</td>
+            </tr>
+            <tr>
+                <td>Tyrannosaurus Rex</td>
+                <td>Its bite force was over 12,000 pounds!</td>
+            </tr>
+            <tr>
+                <td>Stegosaurus</td>
+                <td>Had a brain the size of a walnut.</td>
+            </tr>
+            <tr>
+                <td>Triceratops</td>
+                <td>Its horns were over 3 feet long.</td>
+            </tr>
+            <tr>
+                <td>Brachiosaurus</td>
+                <td>One of the tallest dinosaurs.</td>
+            </tr>
+        </table>
+
+    <!-- <img> is used to display an image, with 'src' specifying the image source and 'alt' for alternative text -->
+    <img src="https://foxyprinting.co.uk/cdn/shop/products/When_life_gives_you_lemons_grab_tequila_and_salt__70161_800x.jpg?v=1492625967" alt="Life Advice" width="400">
+
+    <!-- <form> tag is used to create a form, with <label> defining a form label and <input> for user input -->
+    <form>
+        <label for="name">What is your name?!:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- <div> is used to group content, and CSS can be applied for styling -->
+    <div style="background-color: rgb(212, 235, 129); padding: 10px;">
+        <p>Mind Bogglers: If you drop soap on the floor, is the soap dirty or is the floor clean?</p>
+    </div>
+</body>
+</html>
